@@ -1,0 +1,30 @@
+{
+  "name": "hyphenator",
+  "version": "0.0.1",
+  "description": "Hyphenate any pages using the current words that are in json",
+  "main": "hyphen.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hypen": "./hyphen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-flash/hyphenate.git"
+  },
+  "keywords": [
+    "hyphen"
+  ],
+  "author": "coding-flash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coding-flash/hyphenate/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "yargs": "^11.0.0"
+  },
+  "homepage": "https://github.com/coding-flash/hyphenate#readme"
+}
